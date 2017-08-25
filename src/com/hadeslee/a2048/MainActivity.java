@@ -1,7 +1,5 @@
 
-package com.uberspot.a2048;
-
-import java.util.Locale;
+package com.hadeslee.a2048;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -26,7 +24,7 @@ import android.webkit.WebSettings.RenderPriority;
 import android.webkit.WebView;
 import android.widget.Toast;
 
-import de.cketti.library.changelog.ChangeLog;
+import java.util.Locale;
 
 public class MainActivity extends Activity {
 
@@ -78,10 +76,10 @@ public class MainActivity extends Activity {
 
         setContentView(R.layout.activity_main);
 
-        ChangeLog cl = new ChangeLog(this);
+    /*    ChangeLog cl = new ChangeLog(this);
         if (cl.isFirstRun()) {
             cl.getLogDialog().show();
-        }
+        }*/
 
         // Load webview with game
         mWebView = (WebView) findViewById(R.id.mainWebView);
