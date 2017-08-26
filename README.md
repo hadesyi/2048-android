@@ -1,19 +1,17 @@
 2048-android
 ============
 
-[![Build Status](https://travis-ci.org/uberspot/2048-android.svg?branch=master)](https://travis-ci.org/uberspot/2048-android)
+[![Build Status](https://travis-ci.org/hadesyi/2048-android.svg?branch=master)](https://travis-ci.org/hadesyi/2048-android)
 
-This is the android port of the 2048 game made by Gabriele Cirulli https://github.com/gabrielecirulli/2048
-It's nothing fancy, just a webview that loads the locally stored html files of the original game.
-I just wanted to make it instantly playable without Internet (the app doesn't require any permissions) and with
-a quick access icon for my smartphone.
+2048은 Gabriele Cirulli가    . 게임의 안드로이드 포트입니다. https://github.com/gabrielecirulli/2048
+그것은 기발한 것이 아니며 원래 게임의 로컬에 저장된 HTML 파일을로드하는 웹 뷰일뿐입니다.
+인터넷을 사용하지 않고 즉시 재생할 수 있도록하고 싶었습니다 (앱에 권한이 필요하지 않습니다).
+내 스마트 폰에 대한 빠른 액세스 아이콘.
 
-Feel free to contribute with pull requests to the original project by Gabriele or to this one if you have any android
-specific improvements in mind.
+Gabriele이나 원래 프로젝트에 끌어 오기 요청을 보내주십시오.
+마음에있는 특정한 개선.
 
-<a href="https://f-droid.org/packages/com.uberspot.a2048/" target="_blank">
-<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="100"/></a>
-<a href="https://play.google.com/store/apps/details?id=com.uberspot.a2048" target="_blank">
+<a href="https://play.google.com/store/apps/details?id=com.hadeslee.a2048" target="_blank">
 <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="100"/></a>
 
 ![](screenshots/screen1.png)
@@ -22,7 +20,7 @@ specific improvements in mind.
 
 If you want to build from source just do
 
-    git clone --recursive https://github.com/uberspot/2048-android.git
+    git clone --recursive https://github.com/hadesyi/2048-android.git
     cd 2048-android/
     git submodule update --init --recursive
     ./gradlew build
