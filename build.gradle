@@ -18,14 +18,14 @@ dependencies {
 }
 
 android {
-/*    signingConfigs {
+    signingConfigs {
         config {
             keyAlias '2048'
             keyPassword 'shrck1441$'
             storeFile file('C:/Users/hadeslee/AndroidStudioProjects/2048-android/key/2048_key.jks')
             storePassword 'shrck1441$'
         }
-    }*/
+    }
     compileSdkVersion 24
     buildToolsVersion '25.0.0'
     sourceSets {
