@@ -35,3 +35,4 @@ project.properties
 /build/
 2048-android-release.apk
 key/
+!/.gitmodules
