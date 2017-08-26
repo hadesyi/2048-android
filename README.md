@@ -37,4 +37,4 @@
 
 ##License
 
-2048-android is licensed under the [MIT license.](https://github.com/uberspot/2048-android/blob/master/LICENSE)
+2048-android is licensed under the [MIT license.](https://github.com/hadeslee/2048-android/blob/master/LICENSE)
