@@ -2,6 +2,6 @@
 <changelog>
     <release version="1.0.3" versioncode="3" >
         <change>런처 아이콘 변경</change>
-        <change>점수 한글화 수정</change>
+        <change>스타일 시트 한글화 수정</change>
     </release>
 </changelog>
