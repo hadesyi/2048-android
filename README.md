@@ -3,13 +3,9 @@
 
 [![Build Status](https://travis-ci.org/hadesyi/2048-android.svg?branch=master)](https://travis-ci.org/hadesyi/2048-android)
 
-2048은 Gabriele Cirulli가    . 게임의 안드로이드 포트입니다. https://github.com/gabrielecirulli/2048
-그것은 기발한 것이 아니며 원래 게임의 로컬에 저장된 HTML 파일을로드하는 웹 뷰일뿐입니다.
-인터넷을 사용하지 않고 즉시 재생할 수 있도록하고 싶었습니다 (앱에 권한이 필요하지 않습니다).
-내 스마트 폰에 대한 빠른 액세스 아이콘.
-
-Gabriele이나 원래 프로젝트에 끌어 오기 요청을 보내주십시오.
-마음에있는 특정한 개선.
+2048은 Gabriele Cirulli가 최초로 만든 게임을 안드로이드 포팅한것입니다. https://github.com/gabrielecirulli/2048
+2048은 개발한 것이 아니며 웹 게임을 로컬에 저장된 HTML파일을 로드하는 웹뷰형식입니다.
+인터넷을 사용하지 않고 즉시 사용할 수 있도록하고 싶었습니다 (앱에 권한이 필요하지 않습니다).
 
 <a href="https://play.google.com/store/apps/details?id=com.hadeslee.a2048" target="_blank">
 <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="100"/></a>
@@ -18,7 +14,7 @@ Gabriele이나 원래 프로젝트에 끌어 오기 요청을 보내주십시오
 
 ##Building
 
-If you want to build from source just do
+소스 빌드 다운로드 및 빌드 하는 방법
 
     git clone --recursive https://github.com/hadesyi/2048-android.git
     cd 2048-android/
